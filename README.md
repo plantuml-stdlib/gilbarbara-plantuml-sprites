@@ -35,7 +35,7 @@ daemon --> cassandra
 @enduml
 ```
 
-![Example](TODO)
+![Example](http://www.plantuml.com/plantuml/png/VO_FIWCn4CRlUOgq29vsLwyYfGWYWWTfzUPbTZFTXisVc9bO7zyqMHOzM0Z9JBvlVZEp9OR8oHeXLWeFsg7Sl-wUtnxtxxiNUMGETDTr4KxjgFcO-aGO1-yO7RU3jrdfqQ1Jq8tQz13pWIOOS6TcGo5gHkg-RjkRRax4Ihl198Kfcb-zkeC1cjgGo_vpJ72OuBB3iz7kecK08d0gpY31cWtA9staGvt-cgJneoU9ts23GI5eqYvanKhhdH-EqLkK75EM8WuCRio4zVrLsM3puKxOGmXh2IHhA3uJfc8fAsoALCA_W3f-9YZ0tAhOQYWKCFH0nRQiK45BAaHj9vlDJ2_tEPqfzP5D_bcgf11RT2fPymC0)
 
 The list of available sprites is [here](sprites-list.md).
 
