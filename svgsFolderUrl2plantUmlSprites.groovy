@@ -5,23 +5,19 @@
 @Grab('org.apache.xmlgraphics:batik-codec:1.9.1')
 
 import groovy.json.JsonSlurper
-import java.net.URI
-import java.nio.file.Paths
-
-
-import groovy.util.XmlSlurper
-import groovy.xml.StreamingMarkupBuilder
 import java.awt.AlphaComposite
 import java.awt.Color
 import java.awt.Graphics2D
 import java.awt.RenderingHints
 import java.awt.image.BufferedImage
+import java.net.URI
+import java.nio.file.Paths
 import javax.imageio.ImageIO
 import net.sourceforge.plantuml.sprite.SpriteGrayLevel
 import net.sourceforge.plantuml.sprite.SpriteUtils
-import org.apache.batik.transcoder.image.PNGTranscoder
 import org.apache.batik.transcoder.TranscoderInput
 import org.apache.batik.transcoder.TranscoderOutput
+import org.apache.batik.transcoder.image.PNGTranscoder
 
 final DEFAULT_SCALE = 0.2
 final TMP_DIR = new File('/tmp/svgsFolderUrl2plantUmlSprites')
