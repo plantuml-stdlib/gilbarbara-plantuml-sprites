@@ -39,8 +39,6 @@ daemon --> cassandra
 
 The list of available sprites is [here](sprites-list.md).
 
-**Note:** There are still some missing files from original repository.
-
 You can play around and test ideas with [Online PlantUML Editor](http://plantuml.com/plantuml/uml).
 
 ## Build
@@ -48,7 +46,7 @@ You can play around and test ideas with [Online PlantUML Editor](http://plantuml
 Sprites are built with provided [svgsFolderUrl2plantUmlSprites.groovy](svgsFolderUrl2plantUmlSprites.groovy) script. To update sprites from icons in [Gil Barbara's repo](https://github.com/gilbarbara/logos) just re-run:
 
 ```bash
-./svgsFolderUrl2plantUmlSprites.groovy https://api.github.com/repos/gilbarbara/logos/contents/logos
+./svgsFolderUrl2plantUmlSprites.groovy https://github.com/gilbarbara/logos/tree/master/logos
 ```
 
 ## Note
