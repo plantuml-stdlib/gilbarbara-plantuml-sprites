@@ -13,7 +13,7 @@ Example:
 ```
 @startuml
 
-!define SPRITESURL https://raw.githubusercontent.com/rabelenda/gilbarbara-plantuml-sprites/v1.0/sprites
+!define SPRITESURL https://raw.githubusercontent.com/plantuml-stdlib/gilbarbara-plantuml-sprites/v1.0/sprites
 !includeurl SPRITESURL/flask.puml
 !includeurl SPRITESURL/kafka.puml
 !includeurl SPRITESURL/kotlin.puml
