@@ -46,7 +46,15 @@ You can play around and test ideas with [Online PlantUML Editor](http://plantuml
 Sprites are built with provided [svgsFolderUrl2plantUmlSprites.groovy](svgsFolderUrl2plantUmlSprites.groovy) script. To update sprites from icons in [Gil Barbara's repo](https://github.com/gilbarbara/logos) just re-run:
 
 ```bash
-./svgsFolderUrl2plantUmlSprites.groovy https://github.com/gilbarbara/logos/tree/master/logos
+./svgsFolderUrl2plantUmlSprites.groovy https://github.com/gilbarbara/logos/tree/main/logos
+```
+
+# Docker
+
+In order to execute the build script within a Docker container, you may use the following command:
+
+```bash
+docker run -it --rm -v "$PWD:/home/groovy/scripts" -w  /home/groovy/scripts groovy:3.0.14-jdk8 groovy svgsFolderUrl2plantUmlSprites.groovy https://github.com/gilbarbara/logos/tree/main/logos
 ```
 
 ## Note
