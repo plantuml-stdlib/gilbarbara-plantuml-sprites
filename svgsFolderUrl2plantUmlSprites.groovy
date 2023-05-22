@@ -3,7 +3,6 @@
 @Grab('org.apache.xmlgraphics:batik-transcoder:1.16')
 @Grab('org.apache.xmlgraphics:batik-codec:1.16')
 
-import java.util.logging.Logger
 import groovy.cli.commons.CliBuilder
 import groovy.json.JsonSlurper
 import net.sourceforge.plantuml.klimt.sprite.SpriteGrayLevel
@@ -26,7 +25,6 @@ final PNGS_DIR = new File('pngs')
 PNGS_DIR.mkdirs()
 final SPRITES_LISTING = new SpritesListing(new File('sprites-list.md'), PNGS_DIR)
 
-def log = Logger.getLogger("script")
 def cli = new CliBuilder(usage: "${this.class.getSimpleName()}.groovy [options] <svgs URL>", stopAtNonOption: false, footer: "Usage example: ./${this.class.getSimpleName()}.groovy https://github.com/gilbarbara/logos/tree/master/logos")
 cli.s(longOpt: 'scale', args: 1, argName: 'scale', "Scale (eg: 0.5 to reduce size to half) of generated sprites. Default value: $DEFAULT_SCALE")
 cli.c(longOpt: 'use-cache', "When specified, already downloaded files are not re-downloaded")
@@ -46,25 +44,24 @@ def svgsUrl = options.arguments()[0]
 def scaleFactor = options.s ?: DEFAULT_SCALE
 def useCache = options.c
 
-listSvgsUrls(svgsUrl, log)
+listSvgsUrls(svgsUrl)
   .collect {
-    downloadFile(it, TMP_DIR, useCache, log)
+    downloadFile(it, TMP_DIR, useCache)
   }
   .collect {
-    svg2Png(it, PNGS_DIR, log)
+    svg2Png(it, PNGS_DIR)
   }
   .collect {
     scaleImage(it, scaleFactor)
   }
   .collect {
-    png2PlantUmlSprite(it, SPRITES_DIR, log)
+    png2PlantUmlSprite(it, SPRITES_DIR)
   }
   .each {
     SPRITES_LISTING.addSprite(it)
   }
 
-static def listSvgsUrls(baseUrl, log) {
-  log.info("Getting SVGs list ...")
+static def listSvgsUrls(baseUrl) {
   def matcher = baseUrl =~ /^https:\/\/github.com\/([^\/]+)\/([^\/]+)\/tree\/(.*)$/
   if (!matcher.matches()) {
     throw new IllegalArgumentException("Provided URL is not a GitHub folder URL")
@@ -96,8 +93,8 @@ static def getUrlJson(url) {
       .parseText(new URL(url).text)
 }
 
-static def downloadFile(url, workDir, useCache, log) {
-  log.info("Downloading ${url} ...")
+static def downloadFile(url, workDir, useCache) {
+  println("Downloading ${url} ...")
   def fileName = Paths.get(new URI(url).path).fileName
   def svgFile = new File("$workDir/${fileName}")
   if (useCache && svgFile.exists()) {
@@ -108,8 +105,8 @@ static def downloadFile(url, workDir, useCache, log) {
   return svgFile
 }
 
-static def svg2Png(svg, workDir, log) {
-  log.info("Converting ${svg} to png ...")
+static def svg2Png(svg, workDir) {
+  println("Converting ${svg} to png ...")
   def fileName = svg.name.replace(".svg",".png")
   def pngFile = new File("$workDir/$fileName")
   pngFile.delete()
@@ -135,8 +132,8 @@ static def scaleImage(png, scaleFactor) {
   return png
 }
 
-static def png2PlantUmlSprite(png, outputDir, log) {
-  log.info("Converting ${png} to puml ...")
+static def png2PlantUmlSprite(png, outputDir) {
+  println("Converting ${png} to puml ...")
   BufferedImage im = ImageIO.read(png)
   removeAlpha(im)
   String spriteName = png.name.replace(".png","")
