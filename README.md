@@ -41,6 +41,29 @@ The list of available sprites is [here](sprites-list.md).
 
 You can play around and test ideas with [Online PlantUML Editor](http://plantuml.com/plantuml/uml).
 
+## Color
+
+To use color with the logos, there are two options:
+
+1. Use a sprite with the `color` property set
+2. Include the original PNG the sprite is based on
+
+```plantuml
+@startuml
+
+!define SPRITESURL https://raw.githubusercontent.com/plantuml-stdlib/gilbarbara-plantuml-sprites/v1.1/sprites
+!define IMAGESSURL https://raw.githubusercontent.com/plantuml-stdlib/gilbarbara-plantuml-sprites/v1.1/pngs
+!includeurl SPRITESURL/github-octocat.puml
+
+component "<$github-octocat> Regular Sprite" as A
+component "<$github-octocat,color=#7EBDE7> Colored Sprite" as B
+component "<img:IMAGESSURL/github-octocat.png> PNG Image" as C
+
+@enduml
+```
+
+![Color Example](https://www.plantuml.com/plantuml/png/jP1HQ_em5CNVyock_l-FQuCFGn1Nh5f4c4EiOmzZ3x69QLYIXkHcSunzzzKfKndiRT2NsvpVEOSp2iWyHgD9XukjiWBAvMg-BihxrItKY2uCAFNiDPKAwxY9GVYgiIWifbLZgDFCxkaa8DTgGwNI6-RRZoMd9-SLYa1VUccF7e_ljFaYdnNbNwKvAmCXuLbPrueCJCMMHOrhiSDSAscX4gsx9sGOy4sBZBGfhh7jJtWd00ksKoQQ1yMnXlur-I13UXIIZhALZbn4hyyceuVYILDXKp5CtNxPCzVkyF-b8eELa54p3-LNyIwm0Fbln5NLwCRV_EiNusdHps2oFmK_vySNl39oS9hvHqChCrZUpM1kc3pW4q9oI1vhnRcmJwtRI5WUZVu4)
+
 ## Build
 
 Sprites are built with provided [svgsFolderUrl2plantUmlSprites.groovy](svgsFolderUrl2plantUmlSprites.groovy) script. To update sprites from icons in [Gil Barbara's repo](https://github.com/gilbarbara/logos) just re-run:
