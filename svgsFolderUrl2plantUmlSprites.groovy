@@ -1,12 +1,13 @@
 #!/usr/bin/env groovy
-@Grab('net.sourceforge.plantuml:plantuml:1.2023.8')
-@Grab('org.apache.xmlgraphics:batik-transcoder:1.16')
-@Grab('org.apache.xmlgraphics:batik-codec:1.16')
+@Grab('net.sourceforge.plantuml:plantuml:1.2026.2')
+@Grab('org.apache.xmlgraphics:batik-transcoder:1.19')
+@Grab('org.apache.xmlgraphics:batik-codec:1.19')
 @Grab('org.codehaus.gpars:gpars:1.2.1')
 
 import groovy.cli.commons.CliBuilder
 import groovy.json.JsonSlurper
 import groovyx.gpars.GParsPool
+import net.sourceforge.plantuml.klimt.awt.PortableImageFactory
 import net.sourceforge.plantuml.klimt.sprite.SpriteGrayLevel
 import net.sourceforge.plantuml.klimt.sprite.SpriteUtils
 import org.apache.batik.transcoder.TranscoderInput
@@ -16,6 +17,7 @@ import org.apache.batik.transcoder.image.PNGTranscoder
 import javax.imageio.ImageIO
 import java.awt.*
 import java.awt.image.BufferedImage
+import java.io.StringReader
 import java.nio.file.Paths
 
 final DEFAULT_SCALE = 0.2
@@ -119,11 +121,38 @@ static def svg2Png(svg, workDir) {
     def fileName = svg.name.replace(".svg", ".png")
     def pngFile = new File("$workDir/$fileName")
     pngFile.delete()
-    OutputStream pngOut = new FileOutputStream(pngFile)
-    new PNGTranscoder().transcode(new TranscoderInput(svg.toURI().toString()), new TranscoderOutput(pngOut))
-    pngOut.flush()
-    pngOut.close()
+    try (OutputStream pngOut = new FileOutputStream(pngFile)) {
+        def sanitizedSvg = sanitizeSvg(svg.getText('UTF-8'))
+        new PNGTranscoder().transcode(new TranscoderInput(new StringReader(sanitizedSvg)), new TranscoderOutput(pngOut))
+        pngOut.flush()
+    }
+    catch (Exception e) {
+        println("ERROR: Failed to transcode ${svg}")
+        e.printStackTrace()
+        System.exit(1)
+    }
     return pngFile
+}
+
+static String sanitizeSvg(String svgContent) {
+    def sanitized = svgContent
+            .replaceAll(/(fill\s*=\s*["'])url\(#([^)"']+)(["'])/, '$1url(#$2)$3')
+            .replaceAll(/url\(#pattern([A-Za-z0-9_-]+)\)/, 'url(#$1)')
+            .replaceAll(/(transform|gradientTransform)\s*=\s*"([^"]*)"/) { full, attr, value ->
+                "${attr}=\"${sanitizeTransformValue(value)}\""
+            }
+    return sanitized
+}
+
+static String sanitizeTransformValue(String value) {
+    if (!(value =~ /,\s+\d/)) {
+        return value
+    }
+    def transformed = value
+            .replaceAll(/,\s+/, '@@SEP@@')
+            .replaceAll(/(?<=\d),(?=\d)/, '.')
+            .replace('@@SEP@@', ', ')
+    return transformed
 }
 
 static def scaleImage(png, scaleFactor) {
@@ -145,10 +174,11 @@ static def png2PlantUmlSprite(png, outputDir) {
     println("Converting ${png} to puml ...")
     BufferedImage im = ImageIO.read(png)
     removeAlpha(im)
+    def portableImage = PortableImageFactory.build(im)
     String spriteName = png.name.replace(".png", "")
     def spriteFile = new File("$outputDir/${spriteName}.puml")
     spriteFile.delete()
-    spriteFile << "@startuml\n" + SpriteUtils.encode(im, spriteName, SpriteGrayLevel.GRAY_16) + "@enduml\n"
+    spriteFile << "@startuml\n" + SpriteUtils.encode(portableImage, spriteName, SpriteGrayLevel.GRAY_16) + "@enduml\n"
 }
 
 static def removeAlpha(im) {

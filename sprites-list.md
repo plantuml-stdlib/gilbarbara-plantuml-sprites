@@ -10,9 +10,11 @@
 |active-campaign|![active-campaign](pngs/active-campaign.png)|
 |active-campaign-icon|![active-campaign-icon](pngs/active-campaign-icon.png)|
 |🧟 admob|![admob](pngs/admob.png)|
+|adobe|![adobe](pngs/adobe.png)|
 |adobe-after-effects|![adobe-after-effects](pngs/adobe-after-effects.png)|
 |adobe-animate|![adobe-animate](pngs/adobe-animate.png)|
 |adobe-dreamweaver|![adobe-dreamweaver](pngs/adobe-dreamweaver.png)|
+|adobe-icon|![adobe-icon](pngs/adobe-icon.png)|
 |adobe-illustrator|![adobe-illustrator](pngs/adobe-illustrator.png)|
 |adobe-incopy|![adobe-incopy](pngs/adobe-incopy.png)|
 |adobe-indesign|![adobe-indesign](pngs/adobe-indesign.png)|
@@ -54,6 +56,7 @@
 |amplication-icon|![amplication-icon](pngs/amplication-icon.png)|
 |amplitude|![amplitude](pngs/amplitude.png)|
 |amplitude-icon|![amplitude-icon](pngs/amplitude-icon.png)|
+|analog|![analog](pngs/analog.png)|
 |android|![android](pngs/android.png)|
 |android-icon|![android-icon](pngs/android-icon.png)|
 |android-vertical|![android-vertical](pngs/android-vertical.png)|
@@ -62,11 +65,20 @@
 |angular-icon|![angular-icon](pngs/angular-icon.png)|
 |ansible|![ansible](pngs/ansible.png)|
 |ant-design|![ant-design](pngs/ant-design.png)|
+|anthropic|![anthropic](pngs/anthropic.png)|
+|anthropic-icon|![anthropic-icon](pngs/anthropic-icon.png)|
 |apache|![apache](pngs/apache.png)|
 |apache-camel|![apache-camel](pngs/apache-camel.png)|
+|apache-flink|![apache-flink](pngs/apache-flink.png)|
+|apache-flink-icon|![apache-flink-icon](pngs/apache-flink-icon.png)|
+|apache-spark|![apache-spark](pngs/apache-spark.png)|
+|apache-superset|![apache-superset](pngs/apache-superset.png)|
+|apache-superset-icon|![apache-superset-icon](pngs/apache-superset-icon.png)|
 |apache_cloudstack|![apache_cloudstack](pngs/apache_cloudstack.png)|
 |🧟 api-ai|![api-ai](pngs/api-ai.png)|
 |apiary|![apiary](pngs/apiary.png)|
+|apidog|![apidog](pngs/apidog.png)|
+|apidog-icon|![apidog-icon](pngs/apidog-icon.png)|
 |🧟 apigee|![apigee](pngs/apigee.png)|
 |🧟 apitools|![apitools](pngs/apitools.png)|
 |apollostack|![apollostack](pngs/apollostack.png)|
@@ -215,6 +227,7 @@
 |basecamp|![basecamp](pngs/basecamp.png)|
 |basecamp-icon|![basecamp-icon](pngs/basecamp-icon.png)|
 |basekit|![basekit](pngs/basekit.png)|
+|baseline|![baseline](pngs/baseline.png)|
 |bash|![bash](pngs/bash.png)|
 |bash-icon|![bash-icon](pngs/bash-icon.png)|
 |batch|![batch](pngs/batch.png)|
@@ -224,6 +237,8 @@
 |bem-2|![bem-2](pngs/bem-2.png)|
 |bigpanda|![bigpanda](pngs/bigpanda.png)|
 |bing|![bing](pngs/bing.png)|
+|biomejs|![biomejs](pngs/biomejs.png)|
+|biomejs-icon|![biomejs-icon](pngs/biomejs-icon.png)|
 |🧟 bitballoon|![bitballoon](pngs/bitballoon.png)|
 |bitbar|![bitbar](pngs/bitbar.png)|
 |bitbucket|![bitbucket](pngs/bitbucket.png)|
@@ -239,6 +254,7 @@
 |blossom|![blossom](pngs/blossom.png)|
 |🧟 bluemix|![bluemix](pngs/bluemix.png)|
 |blueprint|![blueprint](pngs/blueprint.png)|
+|bluesky|![bluesky](pngs/bluesky.png)|
 |bluetooth|![bluetooth](pngs/bluetooth.png)|
 |booqable|![booqable](pngs/booqable.png)|
 |booqable-icon|![booqable-icon](pngs/booqable-icon.png)|
@@ -318,6 +334,7 @@
 |chargebee|![chargebee](pngs/chargebee.png)|
 |chargebee-icon|![chargebee-icon](pngs/chargebee-icon.png)|
 |🧟 chartblocks|![chartblocks](pngs/chartblocks.png)|
+|chartjs|![chartjs](pngs/chartjs.png)|
 |chef|![chef](pngs/chef.png)|
 |chevereto|![chevereto](pngs/chevereto.png)|
 |chroma|![chroma](pngs/chroma.png)|
@@ -329,6 +346,8 @@
 |circleci|![circleci](pngs/circleci.png)|
 |cirrus|![cirrus](pngs/cirrus.png)|
 |cirrus-ci|![cirrus-ci](pngs/cirrus-ci.png)|
+|claude|![claude](pngs/claude.png)|
+|claude-icon|![claude-icon](pngs/claude-icon.png)|
 |🧟 clickdeploy|![clickdeploy](pngs/clickdeploy.png)|
 |clio-lang|![clio-lang](pngs/clio-lang.png)|
 |clion|![clion](pngs/clion.png)|
@@ -342,6 +361,7 @@
 |cloudcraft|![cloudcraft](pngs/cloudcraft.png)|
 |🧟 cloudera|![cloudera](pngs/cloudera.png)|
 |cloudflare|![cloudflare](pngs/cloudflare.png)|
+|cloudflare-icon|![cloudflare-icon](pngs/cloudflare-icon.png)|
 |cloudflare-workers|![cloudflare-workers](pngs/cloudflare-workers.png)|
 |cloudflare-workers-icon|![cloudflare-workers-icon](pngs/cloudflare-workers-icon.png)|
 |cloudinary|![cloudinary](pngs/cloudinary.png)|
@@ -382,6 +402,8 @@
 |codesee-icon|![codesee-icon](pngs/codesee-icon.png)|
 |🧟 codeship|![codeship](pngs/codeship.png)|
 |codio|![codio](pngs/codio.png)|
+|codium|![codium](pngs/codium.png)|
+|codium-icon|![codium-icon](pngs/codium-icon.png)|
 |🧟 codrops|![codrops](pngs/codrops.png)|
 |coffeescript|![coffeescript](pngs/coffeescript.png)|
 |commitizen|![commitizen](pngs/commitizen.png)|
@@ -421,6 +443,8 @@
 |create-react-app|![create-react-app](pngs/create-react-app.png)|
 |createjs|![createjs](pngs/createjs.png)|
 |🧟 cross-browser-testing|![cross-browser-testing](pngs/cross-browser-testing.png)|
+|crossplane|![crossplane](pngs/crossplane.png)|
+|crossplane-icon|![crossplane-icon](pngs/crossplane-icon.png)|
 |crucible|![crucible](pngs/crucible.png)|
 |crystal|![crystal](pngs/crystal.png)|
 |css-3|![css-3](pngs/css-3.png)|
@@ -439,6 +463,7 @@
 |dailydev|![dailydev](pngs/dailydev.png)|
 |dailydev-icon|![dailydev-icon](pngs/dailydev-icon.png)|
 |daisyUI|![daisyUI](pngs/daisyUI.png)|
+|daisyUI-icon|![daisyUI-icon](pngs/daisyUI-icon.png)|
 |danfo|![danfo](pngs/danfo.png)|
 |🧟 dapulse|![dapulse](pngs/dapulse.png)|
 |dart|![dart](pngs/dart.png)|
@@ -448,7 +473,10 @@
 |data-station|![data-station](pngs/data-station.png)|
 |database-labs|![database-labs](pngs/database-labs.png)|
 |datadog|![datadog](pngs/datadog.png)|
+|datadog-icon|![datadog-icon](pngs/datadog-icon.png)|
 |datagrip|![datagrip](pngs/datagrip.png)|
+|datasette|![datasette](pngs/datasette.png)|
+|datasette-icon|![datasette-icon](pngs/datasette-icon.png)|
 |dataspell|![dataspell](pngs/dataspell.png)|
 |datocms|![datocms](pngs/datocms.png)|
 |datocms-icon|![datocms-icon](pngs/datocms-icon.png)|
@@ -478,6 +506,7 @@
 |dgraph-icon|![dgraph-icon](pngs/dgraph-icon.png)|
 |dialogflow|![dialogflow](pngs/dialogflow.png)|
 |digital-ocean|![digital-ocean](pngs/digital-ocean.png)|
+|digital-ocean-icon|![digital-ocean-icon](pngs/digital-ocean-icon.png)|
 |dimer|![dimer](pngs/dimer.png)|
 |dinersclub|![dinersclub](pngs/dinersclub.png)|
 |discord|![discord](pngs/discord.png)|
@@ -531,6 +560,9 @@
 |edgio|![edgio](pngs/edgio.png)|
 |edgio-icon|![edgio-icon](pngs/edgio-icon.png)|
 |editorconfig|![editorconfig](pngs/editorconfig.png)|
+|effect|![effect](pngs/effect.png)|
+|effect-icon|![effect-icon](pngs/effect-icon.png)|
+|effector|![effector](pngs/effector.png)|
 |egghead|![egghead](pngs/egghead.png)|
 |🧟 elasticbox|![elasticbox](pngs/elasticbox.png)|
 |elasticpath|![elasticpath](pngs/elasticpath.png)|
@@ -559,8 +591,8 @@
 |envoy-icon|![envoy-icon](pngs/envoy-icon.png)|
 |envoyer|![envoyer](pngs/envoyer.png)|
 |🧟 enyo|![enyo](pngs/enyo.png)|
-|epsagon|![epsagon](pngs/epsagon.png)|
-|epsagon-icon|![epsagon-icon](pngs/epsagon-icon.png)|
+|🧟 epsagon|![epsagon](pngs/epsagon.png)|
+|🧟 epsagon-icon|![epsagon-icon](pngs/epsagon-icon.png)|
 |eraser|![eraser](pngs/eraser.png)|
 |eraser-icon|![eraser-icon](pngs/eraser-icon.png)|
 |erlang|![erlang](pngs/erlang.png)|
@@ -589,7 +621,10 @@
 |fabric|![fabric](pngs/fabric.png)|
 |🧟 fabric_io|![fabric_io](pngs/fabric_io.png)|
 |facebook|![facebook](pngs/facebook.png)|
+|faker|![faker](pngs/faker.png)|
 |falcor|![falcor](pngs/falcor.png)|
+|fastapi|![fastapi](pngs/fastapi.png)|
+|fastapi-icon|![fastapi-icon](pngs/fastapi-icon.png)|
 |fastify|![fastify](pngs/fastify.png)|
 |fastify-icon|![fastify-icon](pngs/fastify-icon.png)|
 |fastlane|![fastlane](pngs/fastlane.png)|
@@ -603,6 +638,7 @@
 |ffmpeg-icon|![ffmpeg-icon](pngs/ffmpeg-icon.png)|
 |figma|![figma](pngs/figma.png)|
 |firebase|![firebase](pngs/firebase.png)|
+|firebase-icon|![firebase-icon](pngs/firebase-icon.png)|
 |firefox|![firefox](pngs/firefox.png)|
 |flannel|![flannel](pngs/flannel.png)|
 |flarum|![flarum](pngs/flarum.png)|
@@ -676,6 +712,7 @@
 |github-octocat|![github-octocat](pngs/github-octocat.png)|
 |gitkraken|![gitkraken](pngs/gitkraken.png)|
 |gitlab|![gitlab](pngs/gitlab.png)|
+|gitlab-icon|![gitlab-icon](pngs/gitlab-icon.png)|
 |gitter|![gitter](pngs/gitter.png)|
 |gitup|![gitup](pngs/gitup.png)|
 |glamorous|![glamorous](pngs/glamorous.png)|
@@ -706,6 +743,8 @@
 |google-adsense|![google-adsense](pngs/google-adsense.png)|
 |🧟 google-adwords|![google-adwords](pngs/google-adwords.png)|
 |google-analytics|![google-analytics](pngs/google-analytics.png)|
+|google-bard|![google-bard](pngs/google-bard.png)|
+|google-bard-icon|![google-bard-icon](pngs/google-bard-icon.png)|
 |google-calendar|![google-calendar](pngs/google-calendar.png)|
 |google-cloud|![google-cloud](pngs/google-cloud.png)|
 |google-cloud-functions|![google-cloud-functions](pngs/google-cloud-functions.png)|
@@ -719,6 +758,7 @@
 |google-domains-icon|![google-domains-icon](pngs/google-domains-icon.png)|
 |google-drive|![google-drive](pngs/google-drive.png)|
 |google-fit|![google-fit](pngs/google-fit.png)|
+|google-gemini|![google-gemini](pngs/google-gemini.png)|
 |google-gmail|![google-gmail](pngs/google-gmail.png)|
 |🧟 google-gsuite|![google-gsuite](pngs/google-gsuite.png)|
 |google-home|![google-home](pngs/google-home.png)|
@@ -730,10 +770,13 @@
 |google-meet|![google-meet](pngs/google-meet.png)|
 |google-one|![google-one](pngs/google-one.png)|
 |google-optimize|![google-optimize](pngs/google-optimize.png)|
+|google-palm|![google-palm](pngs/google-palm.png)|
 |google-pay|![google-pay](pngs/google-pay.png)|
 |🧟 google-pay-icon|![google-pay-icon](pngs/google-pay-icon.png)|
 |google-photos|![google-photos](pngs/google-photos.png)|
 |google-play|![google-play](pngs/google-play.png)|
+|google-play-console|![google-play-console](pngs/google-play-console.png)|
+|google-play-console-icon|![google-play-console-icon](pngs/google-play-console-icon.png)|
 |google-play-icon|![google-play-icon](pngs/google-play-icon.png)|
 |🧟 google-plus|![google-plus](pngs/google-plus.png)|
 |google-search-console|![google-search-console](pngs/google-search-console.png)|
@@ -742,6 +785,8 @@
 |google-workspace|![google-workspace](pngs/google-workspace.png)|
 |gopher|![gopher](pngs/gopher.png)|
 |🧟 gordon|![gordon](pngs/gordon.png)|
+|gradio|![gradio](pngs/gradio.png)|
+|gradio-icon|![gradio-icon](pngs/gradio-icon.png)|
 |gradle|![gradle](pngs/gradle.png)|
 |grafana|![grafana](pngs/grafana.png)|
 |grails|![grails](pngs/grails.png)|
@@ -819,6 +864,7 @@
 |hipercard|![hipercard](pngs/hipercard.png)|
 |🧟 hoa|![hoa](pngs/hoa.png)|
 |homebrew|![homebrew](pngs/homebrew.png)|
+|hono|![hono](pngs/hono.png)|
 |🧟 hoodie|![hoodie](pngs/hoodie.png)|
 |hookstate|![hookstate](pngs/hookstate.png)|
 |hootsuite|![hootsuite](pngs/hootsuite.png)|
@@ -832,9 +878,13 @@
 |houndci|![houndci](pngs/houndci.png)|
 |html-5|![html-5](pngs/html-5.png)|
 |html5-boilerplate|![html5-boilerplate](pngs/html5-boilerplate.png)|
+|htmx|![htmx](pngs/htmx.png)|
+|htmx-icon|![htmx-icon](pngs/htmx-icon.png)|
 |httpie|![httpie](pngs/httpie.png)|
 |httpie-icon|![httpie-icon](pngs/httpie-icon.png)|
 |hubspot|![hubspot](pngs/hubspot.png)|
+|hugging-face|![hugging-face](pngs/hugging-face.png)|
+|hugging-face-icon|![hugging-face-icon](pngs/hugging-face-icon.png)|
 |huggy|![huggy](pngs/huggy.png)|
 |hugo|![hugo](pngs/hugo.png)|
 |humongous|![humongous](pngs/humongous.png)|
@@ -852,6 +902,7 @@
 |immutable|![immutable](pngs/immutable.png)|
 |impala|![impala](pngs/impala.png)|
 |importio|![importio](pngs/importio.png)|
+|importio-icon|![importio-icon](pngs/importio-icon.png)|
 |incident|![incident](pngs/incident.png)|
 |incident-icon|![incident-icon](pngs/incident-icon.png)|
 |infer|![infer](pngs/infer.png)|
@@ -866,6 +917,8 @@
 |intellij-idea|![intellij-idea](pngs/intellij-idea.png)|
 |intercom|![intercom](pngs/intercom.png)|
 |intercom-icon|![intercom-icon](pngs/intercom-icon.png)|
+|internet-computer|![internet-computer](pngs/internet-computer.png)|
+|internet-computer-icon|![internet-computer-icon](pngs/internet-computer-icon.png)|
 |internetexplorer|![internetexplorer](pngs/internetexplorer.png)|
 |invision|![invision](pngs/invision.png)|
 |invision-icon|![invision-icon](pngs/invision-icon.png)|
@@ -908,6 +961,8 @@
 |jsfiddle|![jsfiddle](pngs/jsfiddle.png)|
 |json|![json](pngs/json.png)|
 |json-ld|![json-ld](pngs/json-ld.png)|
+|json-schema|![json-schema](pngs/json-schema.png)|
+|json-schema-icon|![json-schema-icon](pngs/json-schema-icon.png)|
 |jspm|![jspm](pngs/jspm.png)|
 |jss|![jss](pngs/jss.png)|
 |juju|![juju](pngs/juju.png)|
@@ -1084,6 +1139,8 @@
 |mesos|![mesos](pngs/mesos.png)|
 |🧟 mesosphere|![mesosphere](pngs/mesosphere.png)|
 |messenger|![messenger](pngs/messenger.png)|
+|meta|![meta](pngs/meta.png)|
+|meta-icon|![meta-icon](pngs/meta-icon.png)|
 |metabase|![metabase](pngs/metabase.png)|
 |metamask|![metamask](pngs/metamask.png)|
 |metamask-icon|![metamask-icon](pngs/metamask-icon.png)|
@@ -1107,12 +1164,21 @@
 |mida|![mida](pngs/mida.png)|
 |mida-icon|![mida-icon](pngs/mida-icon.png)|
 |middleman|![middleman](pngs/middleman.png)|
+|midjourney|![midjourney](pngs/midjourney.png)|
 |milligram|![milligram](pngs/milligram.png)|
+|million|![million](pngs/million.png)|
+|million-icon|![million-icon](pngs/million-icon.png)|
+|milvus|![milvus](pngs/milvus.png)|
+|milvus-icon|![milvus-icon](pngs/milvus-icon.png)|
 |mindsdb|![mindsdb](pngs/mindsdb.png)|
 |mindsdb-icon|![mindsdb-icon](pngs/mindsdb-icon.png)|
 |mint-lang|![mint-lang](pngs/mint-lang.png)|
 |mio|![mio](pngs/mio.png)|
+|miro|![miro](pngs/miro.png)|
+|miro-icon|![miro-icon](pngs/miro-icon.png)|
 |mist|![mist](pngs/mist.png)|
+|mistral-ai|![mistral-ai](pngs/mistral-ai.png)|
+|mistral-ai-icon|![mistral-ai-icon](pngs/mistral-ai-icon.png)|
 |mithril|![mithril](pngs/mithril.png)|
 |mixmax|![mixmax](pngs/mixmax.png)|
 |mixpanel|![mixpanel](pngs/mixpanel.png)|
@@ -1175,6 +1241,7 @@
 |nextjs|![nextjs](pngs/nextjs.png)|
 |nextjs-icon|![nextjs-icon](pngs/nextjs-icon.png)|
 |nginx|![nginx](pngs/nginx.png)|
+|ngrok|![ngrok](pngs/ngrok.png)|
 |nhost|![nhost](pngs/nhost.png)|
 |nhost-icon|![nhost-icon](pngs/nhost-icon.png)|
 |nightwatch|![nightwatch](pngs/nightwatch.png)|
@@ -1209,6 +1276,8 @@
 |nx|![nx](pngs/nx.png)|
 |oauth|![oauth](pngs/oauth.png)|
 |observablehq|![observablehq](pngs/observablehq.png)|
+|obsidian|![obsidian](pngs/obsidian.png)|
+|obsidian-icon|![obsidian-icon](pngs/obsidian-icon.png)|
 |ocaml|![ocaml](pngs/ocaml.png)|
 |octodns|![octodns](pngs/octodns.png)|
 |octopus-deploy|![octopus-deploy](pngs/octopus-deploy.png)|
@@ -1233,6 +1302,8 @@
 |openjs-foundation|![openjs-foundation](pngs/openjs-foundation.png)|
 |openjs-foundation-icon|![openjs-foundation-icon](pngs/openjs-foundation-icon.png)|
 |openlayers|![openlayers](pngs/openlayers.png)|
+|opensearch|![opensearch](pngs/opensearch.png)|
+|opensearch-icon|![opensearch-icon](pngs/opensearch-icon.png)|
 |openshift|![openshift](pngs/openshift.png)|
 |opensource|![opensource](pngs/opensource.png)|
 |openstack|![openstack](pngs/openstack.png)|
@@ -1260,6 +1331,8 @@
 |pagerduty|![pagerduty](pngs/pagerduty.png)|
 |pagerduty-icon|![pagerduty-icon](pngs/pagerduty-icon.png)|
 |panda|![panda](pngs/panda.png)|
+|pandacss|![pandacss](pngs/pandacss.png)|
+|pandacss-icon|![pandacss-icon](pngs/pandacss-icon.png)|
 |pandas|![pandas](pngs/pandas.png)|
 |pandas-icon|![pandas-icon](pngs/pandas-icon.png)|
 |parcel|![parcel](pngs/parcel.png)|
@@ -1282,6 +1355,8 @@
 |perf-rocks|![perf-rocks](pngs/perf-rocks.png)|
 |🧟 periscope|![periscope](pngs/periscope.png)|
 |perl|![perl](pngs/perl.png)|
+|perplexity|![perplexity](pngs/perplexity.png)|
+|perplexity-icon|![perplexity-icon](pngs/perplexity-icon.png)|
 |phalcon|![phalcon](pngs/phalcon.png)|
 |phoenix|![phoenix](pngs/phoenix.png)|
 |🧟 phonegap|![phonegap](pngs/phonegap.png)|
@@ -1334,7 +1409,9 @@
 |prerender|![prerender](pngs/prerender.png)|
 |prerender-icon|![prerender-icon](pngs/prerender-icon.png)|
 |prestashop|![prestashop](pngs/prestashop.png)|
+|prestashop-icon|![prestashop-icon](pngs/prestashop-icon.png)|
 |presto|![presto](pngs/presto.png)|
+|presto-icon|![presto-icon](pngs/presto-icon.png)|
 |prettier|![prettier](pngs/prettier.png)|
 |prisma|![prisma](pngs/prisma.png)|
 |prismic|![prismic](pngs/prismic.png)|
@@ -1356,6 +1433,8 @@
 |protractor|![protractor](pngs/protractor.png)|
 |prott|![prott](pngs/prott.png)|
 |pug|![pug](pngs/pug.png)|
+|pulumi|![pulumi](pngs/pulumi.png)|
+|pulumi-icon|![pulumi-icon](pngs/pulumi-icon.png)|
 |pumpkindb|![pumpkindb](pngs/pumpkindb.png)|
 |puppet|![puppet](pngs/puppet.png)|
 |puppet-icon|![puppet-icon](pngs/puppet-icon.png)|
@@ -1375,6 +1454,8 @@
 |pytorch-icon|![pytorch-icon](pngs/pytorch-icon.png)|
 |pyup|![pyup](pngs/pyup.png)|
 |q|![q](pngs/q.png)|
+|qdrant|![qdrant](pngs/qdrant.png)|
+|qdrant-icon|![qdrant-icon](pngs/qdrant-icon.png)|
 |qlik|![qlik](pngs/qlik.png)|
 |🧟 qordoba|![qordoba](pngs/qordoba.png)|
 |qt|![qt](pngs/qt.png)|
@@ -1433,6 +1514,8 @@
 |remix|![remix](pngs/remix.png)|
 |remix-icon|![remix-icon](pngs/remix-icon.png)|
 |renovatebot|![renovatebot](pngs/renovatebot.png)|
+|replay|![replay](pngs/replay.png)|
+|replay-icon|![replay-icon](pngs/replay-icon.png)|
 |replit|![replit](pngs/replit.png)|
 |replit-icon|![replit-icon](pngs/replit-icon.png)|
 |require|![require](pngs/require.png)|
@@ -1523,6 +1606,8 @@
 |🧟 shippable|![shippable](pngs/shippable.png)|
 |shogun|![shogun](pngs/shogun.png)|
 |shopify|![shopify](pngs/shopify.png)|
+|shortcut|![shortcut](pngs/shortcut.png)|
+|shortcut-icon|![shortcut-icon](pngs/shortcut-icon.png)|
 |🧟 sidekick|![sidekick](pngs/sidekick.png)|
 |sidekiq|![sidekiq](pngs/sidekiq.png)|
 |sidekiq-icon|![sidekiq-icon](pngs/sidekiq-icon.png)|
@@ -1543,6 +1628,7 @@
 |slack|![slack](pngs/slack.png)|
 |slack-icon|![slack-icon](pngs/slack-icon.png)|
 |slides|![slides](pngs/slides.png)|
+|slidev|![slidev](pngs/slidev.png)|
 |slim|![slim](pngs/slim.png)|
 |smartling|![smartling](pngs/smartling.png)|
 |smashingmagazine|![smashingmagazine](pngs/smashingmagazine.png)|
@@ -1589,6 +1675,10 @@
 |sqlite|![sqlite](pngs/sqlite.png)|
 |square|![square](pngs/square.png)|
 |squarespace|![squarespace](pngs/squarespace.png)|
+|sst|![sst](pngs/sst.png)|
+|sst-icon|![sst-icon](pngs/sst-icon.png)|
+|stability-ai|![stability-ai](pngs/stability-ai.png)|
+|stability-ai-icon|![stability-ai-icon](pngs/stability-ai-icon.png)|
 |stackbit|![stackbit](pngs/stackbit.png)|
 |stackbit-icon|![stackbit-icon](pngs/stackbit-icon.png)|
 |stackblitz|![stackblitz](pngs/stackblitz.png)|
@@ -1605,8 +1695,8 @@
 |steam|![steam](pngs/steam.png)|
 |stenciljs|![stenciljs](pngs/stenciljs.png)|
 |stenciljs-icon|![stenciljs-icon](pngs/stenciljs-icon.png)|
-|stepsize|![stepsize](pngs/stepsize.png)|
-|stepsize-icon|![stepsize-icon](pngs/stepsize-icon.png)|
+|🧟 stepsize|![stepsize](pngs/stepsize.png)|
+|🧟 stepsize-icon|![stepsize-icon](pngs/stepsize-icon.png)|
 |🧟 steroids|![steroids](pngs/steroids.png)|
 |stetho|![stetho](pngs/stetho.png)|
 |stickermule|![stickermule](pngs/stickermule.png)|
@@ -1722,6 +1812,7 @@
 |treasuredata|![treasuredata](pngs/treasuredata.png)|
 |treasuredata-icon|![treasuredata-icon](pngs/treasuredata-icon.png)|
 |treehouse|![treehouse](pngs/treehouse.png)|
+|treehouse-icon|![treehouse-icon](pngs/treehouse-icon.png)|
 |trello|![trello](pngs/trello.png)|
 |trpc|![trpc](pngs/trpc.png)|
 |truffle|![truffle](pngs/truffle.png)|
@@ -1752,6 +1843,8 @@
 |typescript|![typescript](pngs/typescript.png)|
 |typescript-icon|![typescript-icon](pngs/typescript-icon.png)|
 |typescript-icon-round|![typescript-icon-round](pngs/typescript-icon-round.png)|
+|typesense|![typesense](pngs/typesense.png)|
+|typesense-icon|![typesense-icon](pngs/typesense-icon.png)|
 |typo3|![typo3](pngs/typo3.png)|
 |typo3-icon|![typo3-icon](pngs/typo3-icon.png)|
 |ubuntu|![ubuntu](pngs/ubuntu.png)|
@@ -1769,6 +1862,7 @@
 |unito|![unito](pngs/unito.png)|
 |unito-icon|![unito-icon](pngs/unito-icon.png)|
 |unity|![unity](pngs/unity.png)|
+|unjs|![unjs](pngs/unjs.png)|
 |unocss|![unocss](pngs/unocss.png)|
 |unrealengine|![unrealengine](pngs/unrealengine.png)|
 |unrealengine-icon|![unrealengine-icon](pngs/unrealengine-icon.png)|
@@ -1813,7 +1907,9 @@
 |vivaldi|![vivaldi](pngs/vivaldi.png)|
 |vivaldi-icon|![vivaldi-icon](pngs/vivaldi-icon.png)|
 |vlang|![vlang](pngs/vlang.png)|
+|vmware|![vmware](pngs/vmware.png)|
 |void|![void](pngs/void.png)|
+|volar|![volar](pngs/volar.png)|
 |vue|![vue](pngs/vue.png)|
 |vuetifyjs|![vuetifyjs](pngs/vuetifyjs.png)|
 |vueuse|![vueuse](pngs/vueuse.png)|
@@ -1842,6 +1938,7 @@
 |webcomponents|![webcomponents](pngs/webcomponents.png)|
 |webdriverio|![webdriverio](pngs/webdriverio.png)|
 |webflow|![webflow](pngs/webflow.png)|
+|webgpu|![webgpu](pngs/webgpu.png)|
 |webhint|![webhint](pngs/webhint.png)|
 |webhint-icon|![webhint-icon](pngs/webhint-icon.png)|
 |webhooks|![webhooks](pngs/webhooks.png)|
@@ -1869,6 +1966,8 @@
 |wifi|![wifi](pngs/wifi.png)|
 |wildfly|![wildfly](pngs/wildfly.png)|
 |windi-css|![windi-css](pngs/windi-css.png)|
+|winglang|![winglang](pngs/winglang.png)|
+|winglang-icon|![winglang-icon](pngs/winglang-icon.png)|
 |wire|![wire](pngs/wire.png)|
 |🧟 wiredtree|![wiredtree](pngs/wiredtree.png)|
 |wix|![wix](pngs/wix.png)|
@@ -1886,12 +1985,14 @@
 |workplace-icon|![workplace-icon](pngs/workplace-icon.png)|
 |wpengine|![wpengine](pngs/wpengine.png)|
 |wufoo|![wufoo](pngs/wufoo.png)|
+|x|![x](pngs/x.png)|
 |🧟 x-ray-goggles|![x-ray-goggles](pngs/x-ray-goggles.png)|
 |xamarin|![xamarin](pngs/xamarin.png)|
 |xampp|![xampp](pngs/xampp.png)|
 |xata|![xata](pngs/xata.png)|
 |xata-icon|![xata-icon](pngs/xata-icon.png)|
 |xcart|![xcart](pngs/xcart.png)|
+|xcode|![xcode](pngs/xcode.png)|
 |xero|![xero](pngs/xero.png)|
 |🧟 xplenty|![xplenty](pngs/xplenty.png)|
 |xray-for-jira|![xray-for-jira](pngs/xray-for-jira.png)|
@@ -1928,10 +2029,12 @@
 |🧟 zest|![zest](pngs/zest.png)|
 |zig|![zig](pngs/zig.png)|
 |🧟 zigbee|![zigbee](pngs/zigbee.png)|
+|zod|![zod](pngs/zod.png)|
 |zoho|![zoho](pngs/zoho.png)|
 |zoom|![zoom](pngs/zoom.png)|
 |zoom-icon|![zoom-icon](pngs/zoom-icon.png)|
 |zorin-os|![zorin-os](pngs/zorin-os.png)|
+|zsh|![zsh](pngs/zsh.png)|
 |zube|![zube](pngs/zube.png)|
 |zulip|![zulip](pngs/zulip.png)|
 |zulip-icon|![zulip-icon](pngs/zulip-icon.png)|
